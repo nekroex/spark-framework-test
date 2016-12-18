@@ -1,5 +1,7 @@
 package com.nekroex.spark.route;
 
+import spark.route.RouteOverview;
+
 import static spark.Spark.*;
 
 /**
@@ -19,5 +21,7 @@ public class Routes {
         options("/", (req, res) -> "options");
         get("hello/:name", (req, res) -> "hello: " + req.params(":name"));
         get("say/*/to/*", (req, res) -> "number of splat params : " + req.splat().length);
+
+        RouteOverview.enableRouteOverview("/myroutes");
     }
 }
