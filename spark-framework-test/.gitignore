@@ -1,0 +1,11 @@
+*.iml
+*.ipr
+*.iws
+*.log
+*.log.2*
+/target
+/zcache/target
+/zcache-test/target
+zcache/.settings/
+.idea/
+*.DS_Store
