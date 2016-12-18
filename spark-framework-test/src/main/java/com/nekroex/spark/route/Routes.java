@@ -1,4 +1,4 @@
-package com.nekroex.spark;
+package com.nekroex.spark.route;
 
 import static spark.Spark.*;
 

@@ -12,6 +12,7 @@ import static spark.Spark.*;
 public class StartWithMaven {
 
     public static void main(String[] args) {
+        // java8 single abstract method interfaces
         get("/hello", (req, res) -> "Hello World");
     }
 }
